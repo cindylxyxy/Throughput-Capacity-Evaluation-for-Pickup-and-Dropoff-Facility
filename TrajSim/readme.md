@@ -2,9 +2,9 @@ This file contains codes to implement the microscopic trajectory-based discrete-
 
 ****
 
-In each sub-directory, to run the simulation and compute the long-term average throughput capacities, in your computer or server, first make sure that you are under the correct direcotry, then use the command 'python simulation.py'.
+In each sub-directory, to run the simulation and compute the long-term average throughput capacities, in your computer or server, first make sure that you are under the correct directory, then use the command 'python simulation.py'.
 
-The input parameters are initiated in the file 'params.py'. For a full list of input to the simulation model, please refer to our paper. We will only include here a list of input that is easy to change and experiment for the general audience who hopes to see the simulation results under a spectrum of settings. Changes to the other items in the input list will requre thorough understanding towards the model, careful calibration of the input data, and very likely but not necessarily some debugging. For a hassle-free start, you can work with the following input parameters. Note that the first alternative for each item is the default as written in the 'params.py' file.
+The input parameters are initiated in the file 'params.py'. For a full list of input to the simulation model, please refer to our paper. We will only include here a list of input that is easy to change and experiment for the general audience who hopes to see the simulation results under a spectrum of settings. Changes to the other items in the input list will require thorough understanding towards the model, careful calibration of the input data, and very likely but not necessarily some debugging. For a hassle-free start, you can work with the following input parameters. Note that the first alternative for each item is the default as written in the 'params.py' file.
 
 side = 'single' for a single-sided configuration of your choice, and you may change to a double-sided configuration by replacing the value with 'double'.
 
@@ -12,11 +12,11 @@ control = 'partial' for partial access control, and you may change to full acces
 
 meanSERV = 60 (seconds) for mean service time.
 
-simType = 'exp' for exponentially distributed service times, random vehicle desired speed, and Erlang distributed maneuver times.
+simType = 'exp' for exponentially distributed service times, random vehicle desired speeds, and Erlang distributed maneuver times.
 
-SIM_HOUR = 20 for duration of simulation in each iteration being 20 hrs. You may change to any integer of choice. Please make sure your input is in integral form.
+SIM_HOUR = 20 for duration of simulation in each iteration being 20 hrs. You may change to any integer of choice. Please make sure that your input is in integral form.
 
-SIM_ITER = 20 for the number of iterations in the simulation being 20. You may change to any integer of choice. Please make sure your input is in integral form.
+SIM_ITER = 20 for the number of iterations in the simulation being 20. You may change to any integer of choice. Please make sure that your input is in integral form.
 
 dirname = '' for any desired directory to save the output. You may change to any directory of choice.
 
