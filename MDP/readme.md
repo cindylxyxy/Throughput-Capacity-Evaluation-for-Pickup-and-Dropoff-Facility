@@ -4,7 +4,7 @@ This file contains codes to implement the continuous-time Markov decision proces
 
 In each sub-directory, to run the MDP model, in your computer or server, first make sure that you are under the correct directory, then use the command 'python markov.py'.
 
-The input parameters are initiated in the file 'params.py'. For a full list of input to the model, please refer to our paper. We will only include here a list of input that is easy to change and experiment for the general audience who hopes to see the simulation results under a spectrum of settings. Changes to the other items in the input list will require thorough understanding towards the model, careful calibration of the input data, and very likely but not necessarily some debugging. For a hassle-free start, you can work with the following input parameters. Note that the first alternative for each item is the default as written in the 'params.py' file.
+The input parameters are initiated in the file 'params.py'. For a full list of input to the model, please refer to our paper. We will only include here a list of input that is easy to change and experiment for the general audience who hopes to see the numerical results under a spectrum of settings. Changes to the other items in the input list will require thorough understanding towards the model, careful calibration of the input data, and very likely but not necessarily some debugging. For a hassle-free start, you can work with the following input parameters. Note that the first alternative for each item is the default as written in the 'params.py' file.
 
 side = 'single' for a single-sided configuration of your choice, and you may change to a double-sided configuration by replacing the value with 'double'.
 
