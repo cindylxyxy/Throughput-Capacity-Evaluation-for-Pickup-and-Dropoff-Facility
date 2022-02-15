@@ -34,4 +34,4 @@ The 'eventDef.py' file specifies the transition definitions as events in the sim
 
 The 'valueIter.py' file specifies functions to calculate the discounted long-term rewards of full and partial access controls.
 
-The files 'utils.py' and 'SLinkedList.py' stores helper functions and objects.
+The files 'utils.py' and 'SLinkedList.py' store the helper functions and objects.
